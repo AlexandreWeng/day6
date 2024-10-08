@@ -7,7 +7,6 @@ function addCar(agentString, car)
 
 agentString = '{"age": 57, "numbers": "007", "firstName": "James", "lastName": "Bond"}';
 let car = "Aston Martin"
-
 let updatedAgent = addCar(agentString, car)
 
 console.log(updatedAgent)
